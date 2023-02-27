@@ -4,7 +4,7 @@ description: Runs docfx as a GitHub Action.
 
 runs:
   using: docker
-  image: 'docker://TabularEditor/docfx-action:latest'
+  image: 'docker://tabulareditor/docfx-action:latest'
 
 branding:
   icon: book
