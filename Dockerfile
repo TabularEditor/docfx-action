@@ -20,5 +20,5 @@ ENTRYPOINT [ "docfx" ]
 ADD ./entrypoint.sh /usr/local/bin/docfx
 
 ADD https://github.com/dotnet/docfx/releases/download/v2.62.1/docfx-linux-x64-v2.62.1.zip /
-RUN unzip docfx.zip -d /docfx && \
-    rm docfx.zip
+RUN unzip docfx-linux-x64-v2.62.1.zip -d /docfx && \
+    rm docfx-linux-x64-v2.62.1.zip
